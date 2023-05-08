@@ -12,9 +12,11 @@ Il s'agit de 2 ensembles de données expérimentales :
    
    - les séquences sont alignées entre elles
    ### TAS-42.fasta : 
-   ####- ce fichier provient d'une base de données publique disponible sur https://github.com/matsengrp/gctree/tree/master/example
-   ####- il y a 42 séquences + la séquence naïve, cette dernière est unique, les 42 autres séquences ont une occurrence >= 1 : au total 66 séquences
-   ####- les séquences sont alignées entre elles
+   - ce fichier provient d'une base de données publique disponible sur https://github.com/matsengrp/gctree/tree/master/example
+   
+   - il y a 42 séquences + la séquence naïve, cette dernière est unique, les 42 autres séquences ont une occurrence >= 1 : au total 66 séquences
+   
+   - les séquences sont alignées entre elles
                       
 ## simulated-data
 
@@ -25,5 +27,6 @@ Chaque dossier contient plusieurs fichiers fasta correspondant à l'arbre de la 
 contenant au maximum le même nombre de séquences que le nom du dossier.
 
 Pour chaque fichier de lignée donné "tree.fasta", il y a :
-    ####- le véritable arbre "tree.naive.nk"
-    ####- l'arbre déduit par ClonalTree "tree.clonalTree.nk"
+   - le véritable arbre "tree.naive.nk"
+
+   - l'arbre déduit par ClonalTree "tree.clonalTree.nk"
